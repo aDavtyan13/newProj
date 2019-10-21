@@ -1,0 +1,26 @@
+<mat-drawer-container class="header" autosize>
+    <mat-drawer #drawer class="header-sidenav" mode="side">
+      <p>Auto-resizing sidenav</p>
+      <!-- <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+      <button (click)="showFiller = !showFiller" mat-raised-button>
+        Toggle extra text
+      </button> -->
+    </mat-drawer>
+  
+    
+    <div class="header-sidenav-content">
+        <div class="menuAndInput">
+            <mat-icon (click)="drawer.toggle()">menu</mat-icon>
+            <input type="text" placeholder="Search anything...">    
+        </div>
+        
+        <div class="threeIcons">
+            <mat-icon>notifications</mat-icon>
+            <mat-icon>widgets</mat-icon>
+            <mat-icon>more_vert</mat-icon>
+        </div>
+       
+    </div>
+  
+  </mat-drawer-container>
+
