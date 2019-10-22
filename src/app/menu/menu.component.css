@@ -1,20 +1,19 @@
-.header {
-   background-color: rgb(15, 26, 175);
-  }
-  
-  .header-sidenav-content {
+.header-container {
+  height: 300px;
+}
+  .leftMenu{
+    background-color: rgb(15, 26, 175);
     display: flex;
     height: 100%;
     justify-content: space-around;
      align-items: center;
-    /*justify-content: center; */
+
   }
 
   .header-sidenav-content .mat-icon{
       font-size: 24px;
       cursor: pointer;
       color:white;
-      /* margin: 7px 11px; */
   }
   
   .menuAndInput{
@@ -38,4 +37,22 @@
   
   .header-sidenav {
     padding: 20px;
+    height: 300px;
+  }
+
+
+  .adminLink{
+    padding: 0  0 7px 0;
+    margin-bottom: 7px;
+    border-bottom: 1px solid black;
+  }
+  .adminLink a{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  .links{
+    display: flex;
   }
